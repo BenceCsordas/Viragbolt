@@ -1,0 +1,20 @@
+img{
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover;
+}
+.filteredProducts{
+    display: flex;
+    gap: 10px;
+}
+.popover_container{
+    max-width: 800px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+    max-height: 95vh;
+}
+.popover_img{
+    max-width: 100%;
+    height: auto;
+}
