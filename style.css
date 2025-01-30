@@ -18,3 +18,31 @@ img{
     max-width: 100%;
     height: auto;
 }
+h1{
+    background-image: linear-gradient(to right, rgb(82, 82, 253), rgb(230, 4, 230));
+    color: transparent;
+    background-clip: text;
+    height: 100px;
+    font-size: 5rem !important;
+}
+
+#nagyito:hover{
+    animation: spin 1s linear infinite;
+}
+#nagyito{
+    height: 20px;
+    width: 20px;
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      height: 55px;
+      font-size: 3rem !important;
+    }
+  }
