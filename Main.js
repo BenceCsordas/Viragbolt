@@ -1,5 +1,5 @@
-const urlflowers = "https://viragbolt-backend.onrender.com/api/flowers"
-const urlcategories = "https://viragbolt-backend.onrender.com/api/categories"
+const urlflowers = "https://raw.githubusercontent.com/mkatay/projects_json/refs/heads/main/flowers"
+const urlcategories = "https://raw.githubusercontent.com/mkatay/projects_json/refs/heads/main/flowers_categories"
 let products = []
 function loadCategories(e){
     e.preventDefault()
